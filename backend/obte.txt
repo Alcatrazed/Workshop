@@ -1,0 +1,39 @@
+prerequis
+    - abonnement SAS
+    - connexin internet
+    - navigateur à jour
+    - formation
+    - cible parapharmacie
+
+Script video partie technique:
+
+Le projet est divisé en 2 partie :  Frontend
+                                    Backend
+
+Le frontend: -React
+            - scss / styled-component
+            - routes protégées
+
+
+
+Le backend : - BDD (mysql) (init la BDD) 
+             - api
+             - authentification (jwt)
+
+demo de l'appli
+
+
+---------------------------------------------
+
+Présenter le dashboard
+Sur le dashboard on retrouve plusieurs catégories pour la gestion du stock
+->Parler de DNA Spinner 
+->Présenter chaque page:
+    ->dashboard 
+    sur le dashboard on retrouve une visualisation pour les revenus de la pharmacie,
+     on retrouve également des alertes pour les médicaments qui passent sous un seuil critique
+
+    ->inventaire (API Externe)
+    Sur
+    ->rapports
+    ->Configuration

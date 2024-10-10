@@ -1,0 +1,34 @@
+// Styles communs pour les boutons
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 12px;
+  background-color: #F7FAFD;
+  color: #1D242E;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #F1C40F;  // Couleur de survol (jaune doré, comme l'exemple que vous avez montré)
+  color: white;
+}
+
+// Classe spécifique pour le bouton "Déconnexion"
+.deconnexion {
+  margin-left: 10px;  // Espacement entre le bouton "Profile" et "Déconnexion"
+}
+
+// Style spécifique pour le bouton "Profile"
+.profile {
+  background-color: #F7FAFD;
+  color: #1D242E;
+}
+
+.profile:hover {
+  background-color: #F1C40F;  // Couleur de survol (jaune doré, comme l'exemple que vous avez montré)
+  color: white;
+}

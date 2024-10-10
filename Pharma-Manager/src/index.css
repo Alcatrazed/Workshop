@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  height: 0;
+  font-family: "Lato", sans-serif !important;
+  overflow: hidden;
+}
+
+#divMedicInput{
+  display : inline-block;
+  
+  border: none;
+  padding: 0px 10px;
+  width: 200px;
+  width: 70%;
+}
+
+#result {
+  border: 1px dotted #fff;
+  padding: 3px;
+  width: 50%;
+
+}
+#result ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#result ul li {
+  padding: 5px 0;
+}
+#result ul li:hover {
+  background: #eee;
+}
