@@ -45,13 +45,13 @@ const Register = () => {
     <div className="registerPage">
     <div className="formContainer">
       <form>
-        <h1>Créer un compte</h1>
-        <input name="username" type="text" placeholder="Username" />
+        <h1>Je demande une démo en ligne</h1>
+        <input name="username" type="text" placeholder="Nom et Prénom" />
         <input name="email" type="text" placeholder="Email" />
-        <input name="password" type="password" placeholder="Password" />
-        <button disabled={isLoading}>S'inscrire</button>
+        <input name="company" type="text" placeholder="Pharmacie" />
+        <button disabled={isLoading}>J'envoie ma demande </button>
         {error && <span>{error}</span>}
-        <Link to="/login">Vous avez déjà un compte ?</Link>
+        <Link to="/login">Êtes-vous déjà client ?</Link>
       </form>
     </div>
     <div className="imgContainer">

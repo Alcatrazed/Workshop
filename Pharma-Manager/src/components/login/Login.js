@@ -79,7 +79,7 @@ const Login = () => {
         />
         <button disabled={isLoading}>Se connecter</button>
         {error && <span>{error}</span>}
-        <Link to="/register"> Vous n'avez pas de compte ?</Link>
+        <Link to="/register"> Découvrez gratuitement le logiciel Pharma-Manager</Link>
       </form>
     </div>
     <div className="imgContainer">
